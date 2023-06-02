@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "tailwindcss": "^3.3.2"
+  },
+  "name": "funwithtailwindcss",
+  "description": "",
+  "version": "1.0.0",
+  "main": "tailwind.config.js",
+  "devDependencies": {
+    "prettier-plugin-tailwindcss": "^0.3.0"
+  },
+  "scripts": {
+    "tailwind": "npx tailwindcss -i ./src/input.css -o ./build/css/style.css --watch",
+    "prettier": "npx prettier --write ./build/*.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
